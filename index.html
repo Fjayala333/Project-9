@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Project-9/Portfolio </title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container px-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#Portfolio">Portfolio</a>
+            <a class="nav-item nav-link" href="#Contact">Contact</a>
+            <a class="nav-item nav-link" href="https://onedrive.live.com/embed?cid=D28AE37B27D94823&resid=D28AE37B27D94823%211960&authkey=AEUikvAwvXH7AR8&em=2">Resume</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- /navbar --> 
+    <div class="profile" id="about">
+      <img class="img mx-auto d-block mt-2" src="images/Screenshot(3).png" alt="Me">
+      <h1 class=" h2 display-5  text-white text-center text-uppercase mt-3 mx-3">Francisco Ayala</h1>
+      <p class="text-uppercase text-center text-light">Front-end web developer</p>
+      <p class="text-center mx-4">Hi, I'm Francisco! I'm an aspiring Front-End web developer ready to make a positive impact in this technology-centric world we're currently in. I'm looking forward to showcasing my newly acquired skills in creating innovative websites and apps. Let's create something special!</p>
+      <button href="#Contact" type="button" class="btn btn-secondary btn-lg btn-block  text-center mx-5">Contact Info</button>
+    </div>
+
+    <hr class="mt-4 mx-4">
+
+    <div class="container" id="Portfolio">
+        <h1 class="h2 text-white ml-2 mb-4">Portfolio</h1>
+        <div class="card bg-dark my-3 side-a">
+          <img src="images/web-app.jpeg" class="card-img" alt="web app">
+          <div class="card-img-overlay">
+            <h2 class="card-title text-center">Responsive Dashboard App</h2>
+            <p class="card-text text-center mx-auto .more-info">More Info</p>
+            <div class=".card-desc side-b">
+              <h3>About</h3>
+              <ul>
+                <li>created an interactive web app</li>
+                <li>responsive in mobile, tablet, and desktop versions</li>
+                <li>implemented SVg icons</li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="card bg-dark my-3 side-a">
+          <img src="images/word-game.jpeg" class="card-img" alt="word game">
+          <div class="card-img-overlay">
+            <h2 class="card-title text-center">Song Guessing Game</h2>
+            <p class="card-text text-center mx-auto .more-info">More Info</p>
+          </div>
+        </div>
+        <div class="card bg-dark my-3 side-a">
+          <img src="images/employee-directory.jpeg" class="card-img" alt="Employee Directory">
+          <div class="card-img-overlay">
+            <h2 class="card-title text-center">Employee Directory</h2>
+            <p class="card-text text-center mx-auto .more-info">More Info</p>
+          </div>
+        </div>
+        <div class="card bg-dark my-3 side-a">
+          <img src="images/online-registration.jpeg" class="card-img" alt="Online registration form">
+          <div class="card-img-overlay">
+            <h2 class="card-title text-center">Online Registration Form</h2>
+            <p class="card-text text-center mx-auto .more-info">More Info</p>
+          </div>
+        </div>
+   </div>
+
+   <footer id="Footer">
+      <hr class="mt-4 mx-4">
+      <h1 class="h2 text-white ml-4 mb-4" id="Contact">Contact</h1>
+     <div class="socials" id="Contact">
+        <ul>
+          <li>
+            <a href="https://github.com/Fjayala333">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFF" class="bi bi-github" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+          </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/francisco-ayala-82181b1b2/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg>
+          </a>
+          </li>
+          <li>
+            <a href="https://about.facebook.com/meta/">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FFF" class="bi bi-meta" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8.217 5.243C9.145 3.988 10.171 3 11.483 3 13.96 3 16 6.153 16.001 9.907c0 2.29-.986 3.725-2.757 3.725-1.543 0-2.395-.866-3.924-3.424l-.667-1.123-.118-.197a54.944 54.944 0 0 0-.53-.877l-1.178 2.08c-1.673 2.925-2.615 3.541-3.923 3.541C1.086 13.632 0 12.217 0 9.973 0 6.388 1.995 3 4.598 3c.319 0 .625.039.924.122.31.086.611.22.913.407.577.359 1.154.915 1.782 1.714Zm1.516 2.224c-.252-.41-.494-.787-.727-1.133L9 6.326c.845-1.305 1.543-1.954 2.372-1.954 1.723 0 3.102 2.537 3.102 5.653 0 1.188-.39 1.877-1.195 1.877-.773 0-1.142-.51-2.61-2.87l-.937-1.565ZM4.846 4.756c.725.1 1.385.634 2.34 2.001A212.13 212.13 0 0 0 5.551 9.3c-1.357 2.126-1.826 2.603-2.581 2.603-.777 0-1.24-.682-1.24-1.9 0-2.602 1.298-5.264 2.846-5.264.091 0 .181.006.27.018Z"/>
+            </svg>
+          </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg>
+            </a>
+          </li>
+       </ul>
+      </div>
+      <h3 class="copyright">©2021 Francisco Ayala</h3>
+
+   </footer>
+    
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

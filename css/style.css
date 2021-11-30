@@ -1,0 +1,79 @@
+body {
+    margin: 0 auto 25px;
+    background-color: #8b9ba7;
+}
+
+.navbar-toggler {
+    border: 1px solid #FFF;
+    
+}
+.navbar {
+    border-bottom: 1px solid #FFF;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.btn-secondary {
+    width: 80%;
+    background-color: #684245;
+    border-color: #FFF;
+}
+.btn:hover {
+    color:#8b9ba7;
+}
+
+.card-title {
+    width: 100%;
+}
+.card-text {
+    margin-top: 30%;
+    width: 50%;
+    padding: 7px;
+    color: #FFF;
+    background-color: #684245;
+    border: 1px solid #FFF;
+}
+.card-img,
+.card {
+    margin-top: 100px;
+    border: 3px solid #684245
+}
+
+h2 {
+    color: #FFF;
+}
+hr {
+    background-color: #fff;
+}
+
+/* Contact Info - Socials */
+footer {
+    height: 250px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 15px;
+}
+li {
+    list-style-type: none;
+    width: 50px;
+    margin: 0 auto;
+}
+.copyright {
+    color: #FFF;
+    font-size: 1em;
+    font-weight: 200;
+    text-align: center;
+}
