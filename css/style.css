@@ -17,26 +17,27 @@ img {
     border-radius: 50%;
 }
 
-.btn-secondary {
+.btn-primary {
     width: 80%;
     background-color: #684245;
     border-color: #FFF;
 }
 .btn:hover {
-    color:#8b9ba7;
+    background-color: #9bafc5;
+    border-color: #684245;
+}
+
+.more-info {
+    margin-top: 40%;
+    width: 150px;
+    padding: 7px;
+    color: #FFF;
 }
 
 .card-title {
     width: 100%;
 }
-.card-text {
-    margin-top: 30%;
-    width: 50%;
-    padding: 7px;
-    color: #FFF;
-    background-color: #684245;
-    border: 1px solid #FFF;
-}
+
 .card-img,
 .card {
     margin-top: 100px;
