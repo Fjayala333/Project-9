@@ -72,9 +72,27 @@ li {
     width: 50px;
     margin: 0 auto;
 }
+li a:hover {
+    color: #684245;
+}
 .copyright {
     color: #FFF;
     font-size: 1em;
     font-weight: 200;
     text-align: center;
+}
+
+
+
+
+@media(min-width: 768px) {
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+    .container-sm {
+        max-width: 350px;
+    }
+    .socials {
+        margin: 55px;
+    }
 }
