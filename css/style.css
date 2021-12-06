@@ -88,10 +88,11 @@ li a:hover {
     .navbar-collapse {
         flex-grow: 0;
     }
-    .container {
-        max-width: 350px;
-    }
     .socials {
         margin: 55px;
+    }
+    .col-md {
+        flex-basis: auto;
+        max-width: 50%;
     }
 }
