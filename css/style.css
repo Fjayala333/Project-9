@@ -5,7 +5,6 @@ body {
 
 .navbar-toggler {
     border: 1px solid #FFF;
-    
 }
 .navbar {
     border-bottom: 1px solid #FFF;
@@ -89,7 +88,7 @@ li a:hover {
     .navbar-collapse {
         flex-grow: 0;
     }
-    .container-sm {
+    .container {
         max-width: 350px;
     }
     .socials {
