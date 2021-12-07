@@ -1,7 +1,7 @@
-let cards = document.querySelectorAll(".card");
+const cards = document.querySelectorAll(".card");
 
 cards.forEach( card => {
-    let moreInfo = card.querySelector(".more-info");
+    let moreInfo = card.querySelector("more-info");
 
     card.addEventListener('click', e => {
         if(e.target.classList == "more-info") {
