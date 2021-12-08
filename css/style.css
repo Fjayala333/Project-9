@@ -62,10 +62,27 @@ img {
     background-color: #684245;
     transform: rotateY(180deg);
 }
+ul.about-list {
+    display: block;   
+}
+.about-list li {
+    width: 100%;
+    list-style-type: circle;
+    color: #fff;
+}
+.buttons-back {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 25px;
+    width: 250px;
+}
 
 h2,
 h3 {
     color: #FFF;
+}
+a {
+    margin: 0 5px;
 }
 hr {
     background-color: #fff;
@@ -81,16 +98,13 @@ footer {
     flex-direction: row;
     margin-top: 100px;
 }
-ul {
+.svgs {
     display: flex;
     flex-direction: row;
     width: 100%;
     margin: 15px;
 }
-.about-list li {
-    display: flex;
-    flex-direction: row;
-}
+
 li {
     list-style-type: none;
     width: 50px;
