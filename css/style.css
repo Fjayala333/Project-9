@@ -134,8 +134,21 @@ li a:hover {
         flex-basis: auto;
         max-width: 50%;
     }
+    p {
+        padding: 5px 45px;
+    }
 }
 
-@media(max-width: 1024px) {
-   
+@media(min-width: 1024px) {
+   p {
+       padding: 15px 80px;
+   }
+   img {
+       width: 275px;
+       height: 250px;
+   }
+   .buttons-back {
+       margin-top: 35px;
+       width: auto;
+   }
 }
