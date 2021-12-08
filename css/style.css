@@ -45,9 +45,6 @@ img {
 
 }
 
-.card:hover {
-    transform: rotateY(-180deg);
-}
 .side-a,
 .side-b {
     backface-visibility: hidden;

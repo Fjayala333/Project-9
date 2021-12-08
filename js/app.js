@@ -1,17 +1,19 @@
 const cards = document.querySelectorAll(".card");
 
-cards.forEach( card => {
-    let moreInfo = card.querySelector("more-info");
 
+
+cards.forEach(card => {
     card.addEventListener('click', e => {
-        if(e.target.classList == "more-info") {
-            card.classList.toggle('is-flipped');
-        }
-    });
-
-    window.addEventListener('click', e => {
-        if (!e.target.classList.contains('more-info')) {
-            card.classList.remove('is-flipped');
+        if (e.target.tagName === 'BUTTON') {
+            card.style.transform = "rotateY(-180deg)";
         }
     });
 });
+
+    window.addEventListener('click', e => {
+        if (e.target.tagName !== 'BUTTON' && e.target.innerText !== 'More Info') {
+            cards.forEach(card => {
+                card.style.transform = "rotateY(0deg)";
+            });
+        }
+    });
