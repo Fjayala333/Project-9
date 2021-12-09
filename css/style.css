@@ -45,7 +45,7 @@ img {
 
 }
 
-.side-a,
+.flip-card-front,
 .side-b {
     backface-visibility: hidden;
 }
