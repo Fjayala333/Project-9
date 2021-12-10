@@ -17,7 +17,6 @@ img {
 }
 
 .btn-primary {
-    width: 80%;
     background-color: #684245;
     border-color: #FFF;
 }
@@ -65,12 +64,12 @@ ul.about-list {
 .about-list li {
     width: 100%;
     list-style-type: circle;
+    font-size: 12px;
     color: #fff;
 }
 .buttons-back {
     display: flex;
     flex-direction: row;
-    margin: 10px 25px;
     width: 250px;
 }
 
@@ -134,6 +133,19 @@ li a:hover {
     p {
         padding: 5px 45px;
     }
+    .card-1 {
+        margin-top: 10px;
+    }
+    .buttons-back {
+        margin: 15px auto;
+        justify-content: center;
+        position: fixed;
+        top: 175px;
+        left: 40px;
+    }
+    .btn-primary {
+        width: 80%;
+    }
 }
 
 @media(min-width: 1024px) {
@@ -145,7 +157,11 @@ li a:hover {
        height: 250px;
    }
    .buttons-back {
-       margin-top: 35px;
-       width: auto;
+        position: fixed;
+        top: 215px;
+        right: 20px;
+   }
+   .about-list li {
+       font-size: 17px;
    }
 }
